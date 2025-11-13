@@ -63,6 +63,10 @@ export const config = {
     }
    ],
 
+   before: async function () {
+    await browser.maximizeWindow();
+},
+
     //
     // ===================
     // Test Configurations
